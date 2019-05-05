@@ -408,3 +408,571 @@
 2019-05-04 03:08:44,891 DEBUG:__main__:Created figure 8, num 8
 2019-05-04 03:08:45,260 DEBUG:__main__:Created figure 9, num 9
 2019-05-04 03:08:46,206 DEBUG:__main__:Created figure Applesauce, num 10
+2019-05-05 00:34:40,527 DEBUG:__main__:Start pplot module
+2019-05-05 00:34:41,255 DEBUG:__main__:Created figure 1, num 1
+2019-05-05 00:34:41,326 DEBUG:__main__:Created figure 2, num 2
+2019-05-05 00:34:41,465 DEBUG:__main__:Created figure 3, num 3
+2019-05-05 00:34:41,728 DEBUG:__main__:Created figure 4, num 4
+2019-05-05 00:34:43,726 DEBUG:__main__:Created figure 5, num 5
+2019-05-05 00:34:44,608 DEBUG:__main__:Created figure 6, num 6
+2019-05-05 00:34:45,504 DEBUG:__main__:Created figure 7, num 7
+2019-05-05 00:34:46,391 DEBUG:__main__:Created figure 8, num 8
+2019-05-05 00:34:47,236 DEBUG:__main__:Created figure 9, num 9
+2019-05-05 00:34:49,374 DEBUG:__main__:Created figure Applesauce, num 10
+2019-05-05 00:37:07,774 DEBUG:__main__:Start pplot module
+2019-05-05 00:37:08,339 DEBUG:__main__:Created figure 1, num 1
+2019-05-05 00:37:08,412 DEBUG:__main__:Created figure 2, num 2
+2019-05-05 00:37:08,550 DEBUG:__main__:Created figure 3, num 3
+2019-05-05 00:37:08,813 DEBUG:__main__:Created figure 4, num 4
+2019-05-05 00:37:10,820 DEBUG:__main__:Created figure 5, num 5
+2019-05-05 00:37:11,705 DEBUG:__main__:Created figure 6, num 6
+2019-05-05 00:37:12,606 DEBUG:__main__:Created figure 7, num 7
+2019-05-05 00:37:13,501 DEBUG:__main__:Created figure 8, num 8
+2019-05-05 00:37:14,353 DEBUG:__main__:Created figure 9, num 9
+2019-05-05 00:37:16,498 DEBUG:__main__:Created figure Applesauce, num 10
+2019-05-05 00:39:28,544 DEBUG:__main__:Start pplot module
+2019-05-05 00:39:29,118 DEBUG:__main__:Created figure 1, num 1
+2019-05-05 00:39:29,190 DEBUG:__main__:Created figure 2, num 2
+2019-05-05 00:39:29,330 DEBUG:__main__:Created figure 3, num 3
+2019-05-05 00:39:29,590 DEBUG:__main__:Created figure 4, num 4
+2019-05-05 00:39:31,607 DEBUG:__main__:Created figure 5, num 5
+2019-05-05 00:39:32,495 DEBUG:__main__:Created figure 6, num 6
+2019-05-05 00:39:33,393 DEBUG:__main__:Created figure 7, num 7
+2019-05-05 00:39:34,282 DEBUG:__main__:Created figure 8, num 8
+2019-05-05 00:39:35,135 DEBUG:__main__:Created figure 9, num 9
+2019-05-05 00:39:37,283 DEBUG:__main__:Created figure Applesauce, num 10
+2019-05-05 00:40:33,412 DEBUG:__main__:Start pplot module
+2019-05-05 00:40:33,978 DEBUG:__main__:Created figure 1, num 1
+2019-05-05 00:40:34,050 DEBUG:__main__:Created figure 2, num 2
+2019-05-05 00:40:34,187 DEBUG:__main__:Created figure 3, num 3
+2019-05-05 00:40:34,449 DEBUG:__main__:Created figure 4, num 4
+2019-05-05 00:40:36,461 DEBUG:__main__:Created figure 5, num 5
+2019-05-05 00:40:37,361 DEBUG:__main__:Created figure 6, num 6
+2019-05-05 00:40:38,259 DEBUG:__main__:Created figure 7, num 7
+2019-05-05 00:40:39,156 DEBUG:__main__:Created figure 8, num 8
+2019-05-05 00:40:40,013 DEBUG:__main__:Created figure 9, num 9
+2019-05-05 00:40:42,167 DEBUG:__main__:Created figure Applesauce, num 10
+2019-05-05 00:42:18,878 DEBUG:__main__:Start pplot module
+2019-05-05 00:42:19,302 DEBUG:__main__:Created figure 1, num 1
+2019-05-05 00:42:19,356 DEBUG:__main__:Created figure 2, num 2
+2019-05-05 00:42:19,434 DEBUG:__main__:Created figure 3, num 3
+2019-05-05 00:42:19,563 DEBUG:__main__:Created figure 4, num 4
+2019-05-05 00:42:20,392 DEBUG:__main__:Created figure 5, num 5
+2019-05-05 00:42:20,802 DEBUG:__main__:Created figure 6, num 6
+2019-05-05 00:42:21,192 DEBUG:__main__:Created figure 7, num 7
+2019-05-05 00:42:21,566 DEBUG:__main__:Created figure 8, num 8
+2019-05-05 00:42:21,938 DEBUG:__main__:Created figure 9, num 9
+2019-05-05 00:42:22,902 DEBUG:__main__:Created figure Applesauce, num 10
+2019-05-05 00:46:12,671 DEBUG:__main__:Start pplot module
+2019-05-05 00:46:13,278 DEBUG:__main__:Created figure 1, num 1
+2019-05-05 00:46:13,330 DEBUG:__main__:Created figure 2, num 2
+2019-05-05 00:46:13,408 DEBUG:__main__:Created figure 3, num 3
+2019-05-05 00:46:13,540 DEBUG:__main__:Created figure 4, num 4
+2019-05-05 00:46:14,367 DEBUG:__main__:Created figure 5, num 5
+2019-05-05 00:46:14,782 DEBUG:__main__:Created figure 6, num 6
+2019-05-05 00:46:15,164 DEBUG:__main__:Created figure 7, num 7
+2019-05-05 00:46:15,534 DEBUG:__main__:Created figure 8, num 8
+2019-05-05 00:46:15,907 DEBUG:__main__:Created figure 9, num 9
+2019-05-05 00:46:16,893 DEBUG:__main__:Created figure Applesauce, num 10
+2019-05-05 00:46:31,597 DEBUG:__main__:Start pplot module
+2019-05-05 00:46:32,003 DEBUG:__main__:Created figure 1, num 1
+2019-05-05 00:46:32,057 DEBUG:__main__:Created figure 2, num 2
+2019-05-05 00:46:32,136 DEBUG:__main__:Created figure 3, num 3
+2019-05-05 00:46:32,266 DEBUG:__main__:Created figure 4, num 4
+2019-05-05 00:46:33,103 DEBUG:__main__:Created figure 5, num 5
+2019-05-05 00:46:33,519 DEBUG:__main__:Created figure 6, num 6
+2019-05-05 00:46:33,904 DEBUG:__main__:Created figure 7, num 7
+2019-05-05 00:46:34,273 DEBUG:__main__:Created figure 8, num 8
+2019-05-05 00:46:34,641 DEBUG:__main__:Created figure 9, num 9
+2019-05-05 00:46:35,599 DEBUG:__main__:Created figure Applesauce, num 10
+2019-05-05 00:46:36,781 DEBUG:__main__:Created figure applesauce, num 11
+2019-05-05 00:47:35,505 DEBUG:__main__:Start pplot module
+2019-05-05 00:47:35,910 DEBUG:__main__:Created figure 1, num 1
+2019-05-05 00:47:35,963 DEBUG:__main__:Created figure 2, num 2
+2019-05-05 00:47:36,042 DEBUG:__main__:Created figure 3, num 3
+2019-05-05 00:47:36,173 DEBUG:__main__:Created figure 4, num 4
+2019-05-05 00:47:36,997 DEBUG:__main__:Created figure 5, num 5
+2019-05-05 00:47:37,407 DEBUG:__main__:Created figure 6, num 6
+2019-05-05 00:47:37,785 DEBUG:__main__:Created figure 7, num 7
+2019-05-05 00:47:38,149 DEBUG:__main__:Created figure 8, num 8
+2019-05-05 00:47:38,516 DEBUG:__main__:Created figure 9, num 9
+2019-05-05 00:47:39,494 DEBUG:__main__:Created figure Applesauce, num 10
+2019-05-05 17:15:55,234 DEBUG:__main__:Start pplot module
+2019-05-05 17:15:56,006 DEBUG:__main__:Created figure 1, num 1
+2019-05-05 17:16:16,056 DEBUG:__main__:Start pplot module
+2019-05-05 17:16:16,611 DEBUG:__main__:Created figure 1, num 1
+2019-05-05 17:16:16,675 DEBUG:__main__:Created figure 2, num 2
+2019-05-05 17:16:16,773 DEBUG:__main__:Created figure 3, num 3
+2019-05-05 17:16:16,935 DEBUG:__main__:Created figure 4, num 4
+2019-05-05 17:16:17,963 DEBUG:__main__:Created figure 5, num 5
+2019-05-05 17:16:18,497 DEBUG:__main__:Created figure 6, num 6
+2019-05-05 17:16:18,987 DEBUG:__main__:Created figure 7, num 7
+2019-05-05 17:16:19,452 DEBUG:__main__:Created figure 8, num 8
+2019-05-05 17:16:19,897 DEBUG:__main__:Created figure 9, num 9
+2019-05-05 17:16:21,070 DEBUG:__main__:Created figure 10, num 10
+2019-05-05 17:17:24,868 DEBUG:__main__:Start pplot module
+2019-05-05 17:17:25,512 DEBUG:__main__:Created figure 1, num 1
+2019-05-05 17:17:25,582 DEBUG:__main__:Created figure 2, num 2
+2019-05-05 17:17:25,688 DEBUG:__main__:Created figure 3, num 3
+2019-05-05 17:17:25,849 DEBUG:__main__:Created figure 4, num 4
+2019-05-05 17:17:26,849 DEBUG:__main__:Created figure 5, num 5
+2019-05-05 17:17:27,362 DEBUG:__main__:Created figure 6, num 6
+2019-05-05 17:17:27,822 DEBUG:__main__:Created figure 7, num 7
+2019-05-05 17:17:28,282 DEBUG:__main__:Created figure 8, num 8
+2019-05-05 17:17:28,742 DEBUG:__main__:Created figure 9, num 9
+2019-05-05 17:17:29,898 DEBUG:__main__:Created figure 10, num 10
+2019-05-05 17:18:37,908 DEBUG:__main__:Start pplot module
+2019-05-05 17:18:38,566 DEBUG:__main__:Created figure 1, num 1
+2019-05-05 17:18:38,655 DEBUG:__main__:Created figure 2, num 2
+2019-05-05 17:18:38,790 DEBUG:__main__:Created figure 3, num 3
+2019-05-05 17:18:38,998 DEBUG:__main__:Created figure 4, num 4
+2019-05-05 17:18:40,283 DEBUG:__main__:Created figure 5, num 5
+2019-05-05 17:18:40,969 DEBUG:__main__:Created figure 6, num 6
+2019-05-05 17:18:41,439 DEBUG:__main__:Created figure 7, num 7
+2019-05-05 17:18:41,882 DEBUG:__main__:Created figure 8, num 8
+2019-05-05 17:18:42,336 DEBUG:__main__:Created figure 9, num 9
+2019-05-05 17:19:18,165 DEBUG:__main__:Start pplot module
+2019-05-05 17:19:18,660 DEBUG:__main__:Created figure 1, num 1
+2019-05-05 17:19:18,730 DEBUG:__main__:Created figure 2, num 2
+2019-05-05 17:19:18,837 DEBUG:__main__:Created figure 3, num 3
+2019-05-05 17:19:18,991 DEBUG:__main__:Created figure 4, num 4
+2019-05-05 17:19:20,034 DEBUG:__main__:Created figure 5, num 5
+2019-05-05 17:19:20,551 DEBUG:__main__:Created figure 6, num 6
+2019-05-05 17:19:21,006 DEBUG:__main__:Created figure 7, num 7
+2019-05-05 17:19:21,439 DEBUG:__main__:Created figure 8, num 8
+2019-05-05 17:19:21,895 DEBUG:__main__:Created figure 9, num 9
+2019-05-05 17:19:23,056 DEBUG:__main__:Created figure 10, num 10
+2019-05-05 17:19:38,933 DEBUG:__main__:Start pplot module
+2019-05-05 17:19:39,410 DEBUG:__main__:Created figure 1, num 1
+2019-05-05 17:19:39,479 DEBUG:__main__:Created figure 2, num 2
+2019-05-05 17:19:39,580 DEBUG:__main__:Created figure 3, num 3
+2019-05-05 17:19:39,745 DEBUG:__main__:Created figure 4, num 4
+2019-05-05 17:19:40,778 DEBUG:__main__:Created figure 5, num 5
+2019-05-05 17:19:41,265 DEBUG:__main__:Created figure 6, num 6
+2019-05-05 17:19:41,720 DEBUG:__main__:Created figure 7, num 7
+2019-05-05 17:19:42,168 DEBUG:__main__:Created figure 8, num 8
+2019-05-05 17:19:42,609 DEBUG:__main__:Created figure 9, num 9
+2019-05-05 17:19:43,765 DEBUG:__main__:Created figure 10, num 10
+2019-05-05 17:20:03,792 DEBUG:__main__:Start pplot module
+2019-05-05 17:20:04,531 DEBUG:__main__:Created figure 1, num 1
+2019-05-05 17:20:04,616 DEBUG:__main__:Created figure 2, num 2
+2019-05-05 17:20:04,798 DEBUG:__main__:Created figure 3, num 3
+2019-05-05 17:20:05,150 DEBUG:__main__:Created figure 4, num 4
+2019-05-05 17:20:07,800 DEBUG:__main__:Created figure 5, num 5
+2019-05-05 17:20:08,964 DEBUG:__main__:Created figure 6, num 6
+2019-05-05 17:20:10,101 DEBUG:__main__:Created figure 7, num 7
+2019-05-05 17:20:11,203 DEBUG:__main__:Created figure 8, num 8
+2019-05-05 17:20:12,255 DEBUG:__main__:Created figure 9, num 9
+2019-05-05 17:20:16,623 DEBUG:__main__:Created figure 10, num 10
+2019-05-05 17:21:06,516 DEBUG:__main__:Start pplot module
+2019-05-05 17:21:07,216 DEBUG:__main__:Created figure 1, num 1
+2019-05-05 17:21:07,316 DEBUG:__main__:Created figure 2, num 2
+2019-05-05 17:21:07,499 DEBUG:__main__:Created figure 3, num 3
+2019-05-05 17:21:07,833 DEBUG:__main__:Created figure 4, num 4
+2019-05-05 17:21:10,362 DEBUG:__main__:Created figure 5, num 5
+2019-05-05 17:21:11,447 DEBUG:__main__:Created figure 6, num 6
+2019-05-05 17:21:12,614 DEBUG:__main__:Created figure 7, num 7
+2019-05-05 17:21:13,714 DEBUG:__main__:Created figure 8, num 8
+2019-05-05 17:21:14,794 DEBUG:__main__:Created figure 9, num 9
+2019-05-05 17:21:19,103 DEBUG:__main__:Created figure 10, num 10
+2019-05-05 17:22:01,955 DEBUG:__main__:Start pplot module
+2019-05-05 17:22:02,447 DEBUG:__main__:Created figure 1, num 1
+2019-05-05 17:22:02,509 DEBUG:__main__:Created figure 2, num 2
+2019-05-05 17:22:02,616 DEBUG:__main__:Created figure 3, num 3
+2019-05-05 17:22:02,774 DEBUG:__main__:Created figure 4, num 4
+2019-05-05 17:22:04,011 DEBUG:__main__:Created figure 5, num 5
+2019-05-05 17:22:04,540 DEBUG:__main__:Created figure 6, num 6
+2019-05-05 17:22:05,013 DEBUG:__main__:Created figure 7, num 7
+2019-05-05 17:22:05,470 DEBUG:__main__:Created figure 8, num 8
+2019-05-05 17:22:05,909 DEBUG:__main__:Created figure 9, num 9
+2019-05-05 17:22:07,080 DEBUG:__main__:Created figure 10, num 10
+2019-05-05 17:22:07,162 DEBUG:__main__:Created figure Applesauce, num 11
+2019-05-05 17:23:00,240 DEBUG:__main__:Start pplot module
+2019-05-05 17:23:00,939 DEBUG:__main__:Created figure 1, num 1
+2019-05-05 17:23:01,024 DEBUG:__main__:Created figure 2, num 2
+2019-05-05 17:23:01,202 DEBUG:__main__:Created figure 3, num 3
+2019-05-05 17:23:01,540 DEBUG:__main__:Created figure 4, num 4
+2019-05-05 17:23:04,086 DEBUG:__main__:Created figure 5, num 5
+2019-05-05 17:23:05,215 DEBUG:__main__:Created figure 6, num 6
+2019-05-05 17:23:06,301 DEBUG:__main__:Created figure 7, num 7
+2019-05-05 17:23:07,400 DEBUG:__main__:Created figure 8, num 8
+2019-05-05 17:23:08,486 DEBUG:__main__:Created figure 9, num 9
+2019-05-05 17:23:12,377 DEBUG:__main__:Created figure 10, num 10
+2019-05-05 17:33:25,323 DEBUG:__main__:Start pplot module
+2019-05-05 17:33:25,857 DEBUG:__main__:Created figure 1, num 1
+2019-05-05 17:33:25,924 DEBUG:__main__:Created figure 2, num 2
+2019-05-05 17:33:26,026 DEBUG:__main__:Created figure 3, num 3
+2019-05-05 17:33:26,192 DEBUG:__main__:Created figure 4, num 4
+2019-05-05 17:33:27,224 DEBUG:__main__:Created figure 5, num 5
+2019-05-05 17:33:27,757 DEBUG:__main__:Created figure 6, num 6
+2019-05-05 17:33:28,241 DEBUG:__main__:Created figure 7, num 7
+2019-05-05 17:33:28,703 DEBUG:__main__:Created figure 8, num 8
+2019-05-05 17:33:29,150 DEBUG:__main__:Created figure 9, num 9
+2019-05-05 17:33:30,360 DEBUG:__main__:Created figure 10, num 10
+2019-05-05 17:33:30,449 DEBUG:__main__:Created figure Applesauce, num 11
+2019-05-05 17:34:05,870 DEBUG:__main__:Start pplot module
+2019-05-05 17:34:06,653 DEBUG:__main__:Created figure 1, num 1
+2019-05-05 17:34:06,737 DEBUG:__main__:Created figure 2, num 2
+2019-05-05 17:34:06,908 DEBUG:__main__:Created figure 3, num 3
+2019-05-05 17:34:07,241 DEBUG:__main__:Created figure 4, num 4
+2019-05-05 17:34:09,865 DEBUG:__main__:Created figure 5, num 5
+2019-05-05 17:34:10,972 DEBUG:__main__:Created figure 6, num 6
+2019-05-05 17:34:12,070 DEBUG:__main__:Created figure 7, num 7
+2019-05-05 17:34:13,219 DEBUG:__main__:Created figure 8, num 8
+2019-05-05 17:34:14,406 DEBUG:__main__:Created figure 9, num 9
+2019-05-05 17:34:18,989 DEBUG:__main__:Created figure 10, num 10
+2019-05-05 17:35:01,541 DEBUG:__main__:Start pplot module
+2019-05-05 17:35:01,945 DEBUG:__main__:Created figure 1, num 1
+2019-05-05 17:35:01,999 DEBUG:__main__:Created figure 2, num 2
+2019-05-05 17:35:02,080 DEBUG:__main__:Created figure 3, num 3
+2019-05-05 17:35:02,229 DEBUG:__main__:Created figure 4, num 4
+2019-05-05 17:35:03,088 DEBUG:__main__:Created figure 5, num 5
+2019-05-05 17:35:03,514 DEBUG:__main__:Created figure 6, num 6
+2019-05-05 17:35:03,904 DEBUG:__main__:Created figure 7, num 7
+2019-05-05 17:35:04,290 DEBUG:__main__:Created figure 8, num 8
+2019-05-05 17:35:04,665 DEBUG:__main__:Created figure 9, num 9
+2019-05-05 17:35:05,639 DEBUG:__main__:Created figure 10, num 10
+2019-05-05 17:35:05,704 DEBUG:__main__:Created figure Applesauce, num 11
+2019-05-05 17:35:22,952 DEBUG:__main__:Start pplot module
+2019-05-05 17:35:23,530 DEBUG:__main__:Created figure 1, num 1
+2019-05-05 17:35:23,605 DEBUG:__main__:Created figure 2, num 2
+2019-05-05 17:35:23,751 DEBUG:__main__:Created figure 3, num 3
+2019-05-05 17:35:24,020 DEBUG:__main__:Created figure 4, num 4
+2019-05-05 17:35:26,131 DEBUG:__main__:Created figure 5, num 5
+2019-05-05 17:35:27,063 DEBUG:__main__:Created figure 6, num 6
+2019-05-05 17:35:27,994 DEBUG:__main__:Created figure 7, num 7
+2019-05-05 17:35:29,008 DEBUG:__main__:Created figure 8, num 8
+2019-05-05 17:35:29,950 DEBUG:__main__:Created figure 9, num 9
+2019-05-05 17:35:35,924 DEBUG:__main__:Created figure 10, num 10
+2019-05-05 17:36:49,333 DEBUG:__main__:Start pplot module
+2019-05-05 17:36:49,748 DEBUG:__main__:Created figure 1, num 1
+2019-05-05 17:36:49,807 DEBUG:__main__:Created figure 2, num 2
+2019-05-05 17:36:49,888 DEBUG:__main__:Created figure 3, num 3
+2019-05-05 17:36:50,042 DEBUG:__main__:Created figure 4, num 4
+2019-05-05 17:36:50,920 DEBUG:__main__:Created figure 5, num 5
+2019-05-05 17:36:51,377 DEBUG:__main__:Created figure 6, num 6
+2019-05-05 17:36:51,783 DEBUG:__main__:Created figure 7, num 7
+2019-05-05 17:36:52,185 DEBUG:__main__:Created figure 8, num 8
+2019-05-05 17:36:52,579 DEBUG:__main__:Created figure 9, num 9
+2019-05-05 17:36:53,589 DEBUG:__main__:Created figure 10, num 10
+2019-05-05 17:36:53,660 DEBUG:__main__:Created figure Applesauce, num 11
+2019-05-05 17:37:46,072 DEBUG:__main__:Start pplot module
+2019-05-05 17:37:46,486 DEBUG:__main__:Created figure 1, num 1
+2019-05-05 17:37:46,541 DEBUG:__main__:Created figure 2, num 2
+2019-05-05 17:37:46,631 DEBUG:__main__:Created figure 3, num 3
+2019-05-05 17:37:46,770 DEBUG:__main__:Created figure 4, num 4
+2019-05-05 17:37:47,653 DEBUG:__main__:Created figure 5, num 5
+2019-05-05 17:37:48,091 DEBUG:__main__:Created figure 6, num 6
+2019-05-05 17:37:48,493 DEBUG:__main__:Created figure 7, num 7
+2019-05-05 17:37:48,872 DEBUG:__main__:Created figure 8, num 8
+2019-05-05 17:37:49,255 DEBUG:__main__:Created figure 9, num 9
+2019-05-05 17:37:50,241 DEBUG:__main__:Created figure 10, num 10
+2019-05-05 17:37:50,310 DEBUG:__main__:Created figure Applesauce, num 11
+2019-05-05 17:50:20,972 DEBUG:__main__:Start pplot module
+2019-05-05 17:50:21,411 DEBUG:__main__:Created figure 1, num 1
+2019-05-05 17:50:35,421 DEBUG:__main__:Start pplot module
+2019-05-05 17:50:35,869 DEBUG:__main__:Created figure 1, num 1
+2019-05-05 17:50:35,927 DEBUG:__main__:Created figure 2, num 2
+2019-05-05 17:50:36,009 DEBUG:__main__:Created figure 3, num 3
+2019-05-05 17:50:36,163 DEBUG:__main__:Created figure 4, num 4
+2019-05-05 17:50:37,051 DEBUG:__main__:Created figure 5, num 5
+2019-05-05 17:50:37,495 DEBUG:__main__:Created figure 6, num 6
+2019-05-05 17:50:37,900 DEBUG:__main__:Created figure 7, num 7
+2019-05-05 17:50:38,296 DEBUG:__main__:Created figure 8, num 8
+2019-05-05 17:50:38,686 DEBUG:__main__:Created figure 9, num 9
+2019-05-05 17:50:39,686 DEBUG:__main__:Created figure 10, num 10
+2019-05-05 17:50:39,755 DEBUG:__main__:Created figure Applesauce, num 11
+2019-05-05 17:51:06,391 DEBUG:__main__:Start pplot module
+2019-05-05 17:51:06,913 DEBUG:__main__:Created figure 1, num 1
+2019-05-05 17:51:06,971 DEBUG:__main__:Created figure 2, num 2
+2019-05-05 17:51:07,054 DEBUG:__main__:Created figure 3, num 3
+2019-05-05 17:51:07,195 DEBUG:__main__:Created figure 4, num 4
+2019-05-05 17:51:08,079 DEBUG:__main__:Created figure 5, num 5
+2019-05-05 17:51:08,508 DEBUG:__main__:Created figure 6, num 6
+2019-05-05 17:51:08,913 DEBUG:__main__:Created figure 7, num 7
+2019-05-05 17:51:09,291 DEBUG:__main__:Created figure 8, num 8
+2019-05-05 17:51:09,677 DEBUG:__main__:Created figure 9, num 9
+2019-05-05 17:51:10,669 DEBUG:__main__:Created figure 10, num 10
+2019-05-05 17:51:10,742 DEBUG:__main__:Created figure Applesauce, num 11
+2019-05-05 17:51:26,746 DEBUG:__main__:Start pplot module
+2019-05-05 17:51:27,169 DEBUG:__main__:Created figure 1, num 1
+2019-05-05 17:51:27,224 DEBUG:__main__:Created figure 2, num 2
+2019-05-05 17:51:27,307 DEBUG:__main__:Created figure 3, num 3
+2019-05-05 17:51:27,454 DEBUG:__main__:Created figure 4, num 4
+2019-05-05 17:51:28,364 DEBUG:__main__:Created figure 5, num 5
+2019-05-05 17:51:28,839 DEBUG:__main__:Created figure 6, num 6
+2019-05-05 17:51:29,305 DEBUG:__main__:Created figure 7, num 7
+2019-05-05 17:51:29,787 DEBUG:__main__:Created figure 8, num 8
+2019-05-05 17:51:30,250 DEBUG:__main__:Created figure 9, num 9
+2019-05-05 17:51:31,315 DEBUG:__main__:Created figure 10, num 10
+2019-05-05 17:51:31,383 DEBUG:__main__:Created figure Applesauce, num 11
+2019-05-05 17:52:30,885 DEBUG:__main__:Start pplot module
+2019-05-05 17:52:31,478 DEBUG:__main__:Created figure 1, num 1
+2019-05-05 17:52:31,558 DEBUG:__main__:Created figure 2, num 2
+2019-05-05 17:52:31,708 DEBUG:__main__:Created figure 3, num 3
+2019-05-05 17:52:31,994 DEBUG:__main__:Created figure 4, num 4
+2019-05-05 17:52:34,178 DEBUG:__main__:Created figure 5, num 5
+2019-05-05 17:52:35,145 DEBUG:__main__:Created figure 6, num 6
+2019-05-05 17:52:36,095 DEBUG:__main__:Created figure 7, num 7
+2019-05-05 17:52:37,052 DEBUG:__main__:Created figure 8, num 8
+2019-05-05 17:52:37,977 DEBUG:__main__:Created figure 9, num 9
+2019-05-05 17:52:42,031 DEBUG:__main__:Created figure 10, num 10
+2019-05-05 17:52:57,922 DEBUG:__main__:Start pplot module
+2019-05-05 17:52:58,526 DEBUG:__main__:Created figure 1, num 1
+2019-05-05 17:52:58,611 DEBUG:__main__:Created figure 2, num 2
+2019-05-05 17:52:58,763 DEBUG:__main__:Created figure 3, num 3
+2019-05-05 17:52:59,057 DEBUG:__main__:Created figure 4, num 4
+2019-05-05 17:53:01,256 DEBUG:__main__:Created figure 5, num 5
+2019-05-05 17:53:02,231 DEBUG:__main__:Created figure 6, num 6
+2019-05-05 17:53:03,206 DEBUG:__main__:Created figure 7, num 7
+2019-05-05 17:53:04,167 DEBUG:__main__:Created figure 8, num 8
+2019-05-05 17:53:05,103 DEBUG:__main__:Created figure 9, num 9
+2019-05-05 17:53:09,413 DEBUG:__main__:Created figure 10, num 10
+2019-05-05 17:57:04,839 DEBUG:__main__:Start pplot module
+2019-05-05 17:57:05,258 DEBUG:__main__:Created figure 1, num 1
+2019-05-05 17:57:05,314 DEBUG:__main__:Created figure 2, num 2
+2019-05-05 17:57:05,418 DEBUG:__main__:Created figure 3, num 3
+2019-05-05 17:57:05,557 DEBUG:__main__:Created figure 4, num 4
+2019-05-05 17:57:06,457 DEBUG:__main__:Created figure 5, num 5
+2019-05-05 17:57:06,895 DEBUG:__main__:Created figure 6, num 6
+2019-05-05 17:57:07,317 DEBUG:__main__:Created figure 7, num 7
+2019-05-05 17:57:07,724 DEBUG:__main__:Created figure 8, num 8
+2019-05-05 17:57:08,109 DEBUG:__main__:Created figure 9, num 9
+2019-05-05 17:57:09,112 DEBUG:__main__:Created figure 10, num 10
+2019-05-05 17:57:09,184 DEBUG:__main__:Created figure Applesauce, num 11
+2019-05-05 17:57:22,139 DEBUG:__main__:Start pplot module
+2019-05-05 17:57:22,748 DEBUG:__main__:Created figure 1, num 1
+2019-05-05 17:57:22,822 DEBUG:__main__:Created figure 2, num 2
+2019-05-05 17:57:22,970 DEBUG:__main__:Created figure 3, num 3
+2019-05-05 17:57:23,258 DEBUG:__main__:Created figure 4, num 4
+2019-05-05 17:57:25,429 DEBUG:__main__:Created figure 5, num 5
+2019-05-05 17:57:26,418 DEBUG:__main__:Created figure 6, num 6
+2019-05-05 17:57:27,413 DEBUG:__main__:Created figure 7, num 7
+2019-05-05 17:57:28,425 DEBUG:__main__:Created figure 8, num 8
+2019-05-05 17:57:29,354 DEBUG:__main__:Created figure 9, num 9
+2019-05-05 17:57:38,276 DEBUG:__main__:Created figure 10, num 10
+2019-05-05 17:58:44,537 DEBUG:__main__:Start pplot module
+2019-05-05 17:58:44,983 DEBUG:__main__:Created figure 1, num 1
+2019-05-05 17:58:45,044 DEBUG:__main__:Created figure 2, num 2
+2019-05-05 17:58:45,125 DEBUG:__main__:Created figure 3, num 3
+2019-05-05 17:58:45,261 DEBUG:__main__:Created figure 4, num 4
+2019-05-05 17:58:46,144 DEBUG:__main__:Created figure 5, num 5
+2019-05-05 17:58:46,586 DEBUG:__main__:Created figure 6, num 6
+2019-05-05 17:58:46,992 DEBUG:__main__:Created figure 7, num 7
+2019-05-05 17:58:47,385 DEBUG:__main__:Created figure 8, num 8
+2019-05-05 17:58:47,765 DEBUG:__main__:Created figure 9, num 9
+2019-05-05 17:58:48,779 DEBUG:__main__:Created figure 10, num 10
+2019-05-05 17:58:48,845 DEBUG:__main__:Created figure Applesauce, num 11
+2019-05-05 17:59:27,665 DEBUG:__main__:Start pplot module
+2019-05-05 17:59:28,091 DEBUG:__main__:Created figure 1, num 1
+2019-05-05 17:59:28,153 DEBUG:__main__:Created figure 2, num 2
+2019-05-05 17:59:28,245 DEBUG:__main__:Created figure 3, num 3
+2019-05-05 17:59:28,388 DEBUG:__main__:Created figure 4, num 4
+2019-05-05 17:59:29,316 DEBUG:__main__:Created figure 5, num 5
+2019-05-05 17:59:29,758 DEBUG:__main__:Created figure 6, num 6
+2019-05-05 17:59:30,171 DEBUG:__main__:Created figure 7, num 7
+2019-05-05 17:59:30,563 DEBUG:__main__:Created figure 8, num 8
+2019-05-05 17:59:30,956 DEBUG:__main__:Created figure 9, num 9
+2019-05-05 17:59:31,997 DEBUG:__main__:Created figure 10, num 10
+2019-05-05 17:59:32,064 DEBUG:__main__:Created figure Applesauce, num 11
+2019-05-05 18:00:30,158 DEBUG:__main__:Start pplot module
+2019-05-05 18:00:30,623 DEBUG:__main__:Created figure 1, num 1
+2019-05-05 18:00:30,685 DEBUG:__main__:Created figure 2, num 2
+2019-05-05 18:00:30,766 DEBUG:__main__:Created figure 3, num 3
+2019-05-05 18:00:30,907 DEBUG:__main__:Created figure 4, num 4
+2019-05-05 18:00:31,808 DEBUG:__main__:Created figure 5, num 5
+2019-05-05 18:00:32,252 DEBUG:__main__:Created figure 6, num 6
+2019-05-05 18:00:32,657 DEBUG:__main__:Created figure 7, num 7
+2019-05-05 18:00:33,039 DEBUG:__main__:Created figure 8, num 8
+2019-05-05 18:00:33,440 DEBUG:__main__:Created figure 9, num 9
+2019-05-05 18:00:34,624 DEBUG:__main__:Created figure 10, num 10
+2019-05-05 18:00:34,712 DEBUG:__main__:Created figure Applesauce, num 11
+2019-05-05 18:01:37,278 DEBUG:__main__:Start pplot module
+2019-05-05 18:01:37,778 DEBUG:__main__:Created figure 1, num 1
+2019-05-05 18:01:37,841 DEBUG:__main__:Created figure 2, num 2
+2019-05-05 18:01:37,940 DEBUG:__main__:Created figure 3, num 3
+2019-05-05 18:01:38,101 DEBUG:__main__:Created figure 4, num 4
+2019-05-05 18:01:39,140 DEBUG:__main__:Created figure 5, num 5
+2019-05-05 18:01:39,660 DEBUG:__main__:Created figure 6, num 6
+2019-05-05 18:01:40,133 DEBUG:__main__:Created figure 7, num 7
+2019-05-05 18:01:40,571 DEBUG:__main__:Created figure 8, num 8
+2019-05-05 18:01:41,018 DEBUG:__main__:Created figure 9, num 9
+2019-05-05 18:01:42,164 DEBUG:__main__:Created figure 10, num 10
+2019-05-05 18:01:42,251 DEBUG:__main__:Created figure Applesauce, num 11
+2019-05-05 18:01:56,123 DEBUG:__main__:Start pplot module
+2019-05-05 18:01:56,805 DEBUG:__main__:Created figure 1, num 1
+2019-05-05 18:01:56,903 DEBUG:__main__:Created figure 2, num 2
+2019-05-05 18:01:57,082 DEBUG:__main__:Created figure 3, num 3
+2019-05-05 18:01:57,419 DEBUG:__main__:Created figure 4, num 4
+2019-05-05 18:02:00,069 DEBUG:__main__:Created figure 5, num 5
+2019-05-05 18:02:01,260 DEBUG:__main__:Created figure 6, num 6
+2019-05-05 18:02:04,125 DEBUG:__main__:Start pplot module
+2019-05-05 18:02:04,604 DEBUG:__main__:Created figure 1, num 1
+2019-05-05 18:02:04,679 DEBUG:__main__:Created figure 2, num 2
+2019-05-05 18:02:04,785 DEBUG:__main__:Created figure 3, num 3
+2019-05-05 18:02:04,949 DEBUG:__main__:Created figure 4, num 4
+2019-05-05 18:02:05,969 DEBUG:__main__:Created figure 5, num 5
+2019-05-05 18:02:06,493 DEBUG:__main__:Created figure 6, num 6
+2019-05-05 18:02:06,979 DEBUG:__main__:Created figure 7, num 7
+2019-05-05 18:02:07,452 DEBUG:__main__:Created figure 8, num 8
+2019-05-05 18:02:07,921 DEBUG:__main__:Created figure 9, num 9
+2019-05-05 18:02:09,140 DEBUG:__main__:Created figure 10, num 10
+2019-05-05 18:02:09,223 DEBUG:__main__:Created figure Applesauce, num 11
+2019-05-05 18:02:51,944 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:51,945 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:51,947 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:51,948 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:51,953 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:51,954 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:51,956 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:51,957 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:51,959 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:51,967 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:51,983 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:51,991 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:52,656 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:52,656 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:52,659 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:52,660 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:52,664 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:52,665 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:52,668 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:52,669 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:52,672 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:52,680 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:52,692 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:52,703 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:53,581 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:53,581 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:53,584 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:53,585 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:53,590 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:53,591 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:53,593 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:53,595 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:53,597 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:53,607 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:53,622 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:53,632 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:58,168 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:58,169 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:58,175 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:58,176 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:58,178 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:58,179 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:58,181 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:58,191 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:58,209 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:02:58,219 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:04,069 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:04,070 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:04,075 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:04,076 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:04,078 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:04,079 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:04,081 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:04,089 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:04,106 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:04,117 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:05,090 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:05,090 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:05,094 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:05,095 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:05,099 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:05,100 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:05,102 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:05,103 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:05,106 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:05,116 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:05,133 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:05,142 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:09,077 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:09,079 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:09,083 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:09,084 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:09,086 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:09,086 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:09,089 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:09,098 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:09,116 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:09,126 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:12,271 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:12,273 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:12,278 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:12,279 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:12,281 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:12,283 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:12,286 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:12,294 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:12,311 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:12,322 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:13,920 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:13,920 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:13,923 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:13,925 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:13,927 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:13,928 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:13,930 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:13,930 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:13,932 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:13,938 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:13,950 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:13,955 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:16,567 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:16,567 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:16,569 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:16,571 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:16,574 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:16,575 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:16,578 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:16,579 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:16,582 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:16,591 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:16,608 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:16,620 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:19,777 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:19,779 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:19,785 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:19,787 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:19,789 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:19,791 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:19,793 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:19,803 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:19,818 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:03:19,834 WARNING:matplotlib.dates:Plotting microsecond time intervals is not well supported. Please see the MicrosecondLocator documentation for details.
+2019-05-05 18:05:02,461 DEBUG:__main__:Start pplot module
+2019-05-05 18:05:02,942 DEBUG:__main__:Created figure 1, num 1
+2019-05-05 18:05:03,012 DEBUG:__main__:Created figure 2, num 2
+2019-05-05 18:05:03,121 DEBUG:__main__:Created figure 3, num 3
+2019-05-05 18:05:03,280 DEBUG:__main__:Created figure 4, num 4
+2019-05-05 18:05:04,331 DEBUG:__main__:Created figure 5, num 5
+2019-05-05 18:05:04,834 DEBUG:__main__:Created figure 6, num 6
+2019-05-05 18:05:05,302 DEBUG:__main__:Created figure 7, num 7
+2019-05-05 18:05:05,743 DEBUG:__main__:Created figure 8, num 8
+2019-05-05 18:05:06,189 DEBUG:__main__:Created figure 9, num 9
+2019-05-05 18:05:07,371 DEBUG:__main__:Created figure 10, num 10
+2019-05-05 18:05:07,455 DEBUG:__main__:Created figure Applesauce, num 11
+2019-05-05 18:10:53,378 DEBUG:__main__:Start pplot module
+2019-05-05 18:10:53,858 DEBUG:__main__:Created figure 1, num 1
+2019-05-05 18:10:53,921 DEBUG:__main__:Created figure 2, num 2
+2019-05-05 18:10:54,017 DEBUG:__main__:Created figure 3, num 3
+2019-05-05 18:10:54,179 DEBUG:__main__:Created figure 4, num 4
+2019-05-05 18:10:55,239 DEBUG:__main__:Created figure 5, num 5
+2019-05-05 18:10:55,765 DEBUG:__main__:Created figure 6, num 6
+2019-05-05 18:10:56,295 DEBUG:__main__:Created figure 7, num 7
+2019-05-05 18:10:56,818 DEBUG:__main__:Created figure 8, num 8
+2019-05-05 18:10:57,325 DEBUG:__main__:Created figure 9, num 9
+2019-05-05 18:10:58,662 DEBUG:__main__:Created figure 10, num 10
+2019-05-05 18:10:58,757 DEBUG:__main__:Created figure Applesauce, num 11
+2019-05-05 18:12:17,585 DEBUG:__main__:Start pplot module
+2019-05-05 18:12:18,094 DEBUG:__main__:Created figure 1, num 1
+2019-05-05 18:12:18,158 DEBUG:__main__:Created figure 2, num 2
+2019-05-05 18:12:18,257 DEBUG:__main__:Created figure 3, num 3
+2019-05-05 18:12:18,423 DEBUG:__main__:Created figure 4, num 4
+2019-05-05 18:12:19,442 DEBUG:__main__:Created figure 5, num 5
+2019-05-05 18:12:19,954 DEBUG:__main__:Created figure 6, num 6
+2019-05-05 18:12:20,444 DEBUG:__main__:Created figure 7, num 7
+2019-05-05 18:12:20,908 DEBUG:__main__:Created figure 8, num 8
+2019-05-05 18:12:21,363 DEBUG:__main__:Created figure 9, num 9
+2019-05-05 18:12:22,513 DEBUG:__main__:Created figure 10, num 10
+2019-05-05 18:12:22,599 DEBUG:__main__:Created figure Applesauce, num 11

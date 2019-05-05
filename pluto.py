@@ -16,9 +16,17 @@ In eclipse: window -> preferences -> Pydev -> Interactive Console ->
 Todo:
 - Zoom function using x/ylim (somewhat redundant with interactivity.)
 - Update fig / ax parms - dict of parms triggering a function call + removal.
+- ?Auto rotation when x axis is some form of date.
+- !Tick orientation.
+- ?ax.set_aspect(v): <1 => elongated (prone), >1 => narrow (standing),
+  "auto" (def) = expands to maximum volume, "equal" = 1 = square.
+  May have some usage.
 
 Bugs:
-    Figsize calc is inaccurate at high widths.
+- Figsize calc is inaccurate at high widths.
+- When both of shared axes are time and main is unrelated / mismatched to secondary,
+  causes valerr "microsecond must be in (range)", home button fails.
+  Cannot display single time vals either (eg 00:00 + 23:59).
 
 Notes:
 - The mechanism is in part built around spyder, wherein all files run
@@ -40,6 +48,7 @@ Notes:
   (Can be automated using version parm branding.)
 
 Version log (incrementing on imports):
+04/05/19 V3.1 Added save, shared axes, tick + label control, rotation.
 03/05/19 V3.0 Forked to eclipse.
 06/06/18 V2.6 Improved manual grid row / col setting.
                 Added approx rect (user calls).
@@ -68,6 +77,12 @@ Version log (incrementing on imports):
 
 """
 
+# -Setting ticks after creation (the little | under graph):
+# for tick in ax.get_xticklabels():
+#     tick.set_rotation(45)
+# -Okay format for dates:
+# fig.autofmt_xdate()
+
 import sys
 import logging
 logger = logging.getLogger(__name__) # Separated logger, does not spam main.
@@ -86,6 +101,8 @@ BADLOG = "Utilog-d{}.txt"
 
 logger.debug("Start pplot module")
 
+import os
+import datetime
 import matplotlib.pyplot as plt # v
 import matplotlib.gridspec as gsp # v
 import numpy as np # v
@@ -109,13 +126,15 @@ PROPRANGE = (0.1,0.9)
 FLSWAIT = 0.001
 NOWAIT = 1
 USRWAIT = 30
+FNMFMT = "Test\Fig{fign}_T{tm}.png"
 # Defs and viewds ought to contain all known parms.
 # Size set according to fullscreen width approximately.
-FDEFS = {
+uti.FDEFS.update({
 "Fig":{"ppr":1,"ppc":1,"figsize":(13,3),
         "supttl":"Figure {fign}","supx":0.5,"supy":1.03,"supfont":14}, # y = 0.98 overlaps.
 "Axis":{"pptitle":"Graph","ppxlabel":"X axis","ppylabel":"Y axis","ppindleg":False,
-        "ppindalbl":True,"ppindgrid":True,"ppindmgrid":True},
+        "ppindalbl":True,"ppindgrid":True,"ppindmgrid":True,
+        "shrx":None,"shry":None,"xrot":None,"yrot":None,"xtloc":"","ytloc":""},
 "Plot":{"label":"Function {fn}",
         "ppfign":1,"ppaxr":0,"ppaxc":0,"holdon":True},
 "Imgs":{"ppindleg":True, # Legend merged for ease of access.
@@ -127,20 +146,23 @@ FDEFS = {
          "adjh":0.05,"adjw":0.05,"adjl":0.05,"adjr":0.95,"figsize":None, # Tighter layout.
          "vmin":None,"vmax":None,"ppindlocol":1, # Local / global / rc brightness.
          "heatrmin":None,"heatrmax":None,"heatcmin":None,"heatcmax":None},
+"FigSave":{"dpi":1000,"bbox_inches":"tight"},
 "Null":None
-}
+})
 # View dictionary. Sends parms relevant to function, through the percolation.
 # PP parms do not need this since no atterr is thrown for these.
 # Note that the keys differ from defs, which refer to the pp function.
-VIEWD = {
+uti.DVIEW.update({
 "Fig":{"figsize"},
 "Figb":{"ppr","ppc","figspec"}, # Backup only (used outside fig cre).
-"Axis":{"fcnt","pptitle","ppxlabel""ppylabel","ppindleg"},
+"Axis":{"fcnt","pptitle","ppxlabel","ppylabel","ppindleg",
+        "shrx","shry","xrot","yrot","xtloc","ytloc"},
 "Plot":{"label","lw"},
 "Imgs":{"cmap","vmin","vmax"},
+"FigSave":{"dpi","quality","orientation","bbox_inches"},
 "Null":set()
-}
-VIEWD2 = { # Conversion dicts. Can work for all keys, but unnecessary dupe.
+})
+uti.DVIEW2.update({ # Conversion dicts. Can work for all keys, but unnecessary dupe.
 "Supt":{"supttl":"t","supx":"x","supy":"y","supfont":"fontsize"},
 "Gspec":{"ppr":"nrows","ppc":"ncols",
          "gshgts":"height_ratios","gswids":"width_ratios"}, # Does not accept dict, but can be coerced.
@@ -148,7 +170,7 @@ VIEWD2 = { # Conversion dicts. Can work for all keys, but unnecessary dupe.
 "Adjsub":{"adjl":"left","adjr":"right","adjb":"bottom","adjt":"top", # 0 - 1, edge margin.
           "adjh":"hspace","adjw":"wspace"}, # 0 - 1 (0.2), inner distance.
 "Null":dict()
-}
+})
 
 # Not for user meddling.
 USRFIGMSG = "Figure display mode. W = wait, R = refresh figs, Q / C = soft quit."
@@ -370,10 +392,93 @@ class Multiplot():
             #r = fig[1]["ppr"] # Base method.
             #c = fig[1]["ppc"]
             #ax = fig[0].add_subplot(r,c,i)
-            ax = fig[0].add_subplot(fig[1]["figspec"][axr,axc])
+            if rund["shrx"] is not None: # Expected format: (r,c) of axis.
+                sharex = self.Get_Ax(f,*rund["shrx"])[0]
+            else:
+                sharex = None
+            if rund["shry"] is not None:
+                sharey = self.Get_Ax(f,*rund["shry"])[0]
+            else:
+                sharey = None
+            ax = fig[0].add_subplot(fig[1]["figspec"][axr,axc],
+                                    sharex = sharex,sharey = sharey)
             ax.set_title(rund["pptitle"])
-            ax.set_xlabel(rund["ppxlabel"])
-            ax.set_ylabel(rund["ppylabel"])
+            
+            # X tick + label handler.
+            dtick = {"bottom":True,"labelbottom":True,
+                     "top":False,"labeltop":False}
+            # 0 is the def, 90 is space compact yet difficult to read,
+            # 30 is the date display - quite nice.
+            dtick["rotation"] = rund["xrot"]
+            if rund["shrx"] is not None:
+                dtick["bottom"] = False
+                dtick["labelbottom"] = False
+                if fig[1]["ppr"] - 1 == axr: # Last shared row gets ticks.
+                    dtick["bottom"] = True
+                    dtick["labelbottom"] = True
+                elif axr == 0: # First row gets upper ticks for clarity.
+                    dtick["top"] = True
+                    dtick["labeltop"] = True
+            if rund["xtloc"] == "hide":
+                dtick["bottom"] = False
+                dtick["labelbottom"] = False
+                dtick["top"] = False
+                dtick["labeltop"] = False
+            elif rund["xtloc"] == "bottom":
+                dtick["bottom"] = True
+                dtick["labelbottom"] = True
+                dtick["top"] = False
+                dtick["labeltop"] = False
+            elif rund["xtloc"] == "top":
+                dtick["bottom"] = False
+                dtick["labelbottom"] = False
+                dtick["top"] = True
+                dtick["labeltop"] = True
+            ax.tick_params(axis = "x",**dtick)
+            if dtick["bottom"]:
+                ax.xaxis.set_label_position("bottom")
+                ax.set_xlabel(rund["ppxlabel"])
+            if dtick["top"]:
+                ax.xaxis.set_label_position("top")
+                ax.set_xlabel(rund["ppxlabel"])
+            
+            # Y tick + label handler.
+            dtick = {"left":True,"labelleft":True,
+                     "right":False,"labelright":False}
+            dtick["rotation"] = rund["yrot"]
+            if rund["shry"] is not None:
+                dtick["left"] = False
+                dtick["labelleft"] = False
+                if axc == 0: # Left is preferred.
+                    dtick["left"] = True
+                    dtick["labelleft"] = True
+                elif fig[1]["ppc"] - 1 == axc: # Last shared col gets ticks.
+                    dtick["right"] = True
+                    dtick["labelright"] = True
+            if rund["ytloc"] == "hide":
+                dtick["left"] = False
+                dtick["labelleft"] = False
+                dtick["right"] = False
+                dtick["labelright"] = False
+            if rund["ytloc"] == "left":
+                dtick["left"] = True
+                dtick["labelleft"] = True
+                dtick["right"] = False
+                dtick["labelright"] = False
+            if rund["ytloc"] == "right":
+                dtick["left"] = False
+                dtick["labelleft"] = False
+                dtick["right"] = True
+                dtick["labelright"] = True
+            ax.tick_params(axis = "y",**dtick)
+            if dtick["left"]:
+                #ax.xaxis.set_label_position("top")
+                ax.set_ylabel(rund["ppylabel"])
+            if dtick["right"]:
+                # Bug: Dunno how to set y label to right.
+                #ax.yaxis.set_label_position("bottom")
+                ax.set_ylabel(rund["ppylabel"])
+            
             self.Grid_Set(ax,**rund)
             drecr = {"fcnt":0}
             drecr.update(View_Dict("Axis",rund,False))
@@ -630,7 +735,8 @@ class Multiplot():
         Adjusted for eclipse file processing mode:
         Does not block, permitting redraw and proceeding with the code.
         W {num} = Wait num secs until next waking.
-        R {[figs] | all} = Redraw specific or all figs (comma / space sep).
+        R {[figs] | all} = Redraw specific or all figs (space sep).
+        S {[figs] | all} = Save figs as currently displayed.
         Q / C = Soft close (continue until reaching the proc's end, killing figs).
         Creep: Canvas draw seems to have no effect; pause redraws all rather than cur.
         Annoyingly, it also sets the focus on the entire series.
@@ -662,12 +768,42 @@ class Multiplot():
                             fign = int(fig) # Numerical figs are stored as such.
                         except ValueError:
                             fign = fig
-                        if fign in self.dplt:
+                        if fig.lower() == "all":
+                            plt.draw_all() # Faster than singles, still pointless.
+                        elif fign in self.dplt:
                             self.dplt[fign][0].canvas.draw()
                         else:
                             print("Fig doesn't exist, cannot ref: {}.".format(fign))
                 elif (comm.startswith("q") or comm.startswith("c")):
                     indstop = True 
+
+    def Save_Fig(self,fign = None,fname = None,**parms):
+        """Save fig to file.
+        
+        Dpi + quality will determine file size and sharpness -
+        defs are ample for zooming, whilst reasonably sized (<1mb).
+        If no fig sent, will save all of them."""
+        rund = Default_Dict("FigSave",parms)
+        fign = Parm_Consolidate("ppfign",fign,rund)
+        if fname is None: # Def = auto from name and time.
+            fname = FNMFMT
+        if fign is None: # All figs.
+            lfig = list(self.dplt.keys())
+        elif not uti.islstup(fign): # Single fig.
+            lfig = [fign] 
+        else:
+            lfig = fign
+        if (len(lfig) > 1  # For multi figs ensure the filenames differ.
+            and "{fign}" not in fname):
+            fnspl = os.path.splitext(fname)
+            fname = fnspl[0] + "_Fig{fign}" + fnspl[1]
+        
+        for fn in lfig:
+            now = datetime.datetime.now()
+            now = now.strftime("%y%m%d-%H%M%S")
+            fname1 = fname.format(fign = fn,tm = now)
+            fig = self.Get_Fig(fn)
+            fig[0].savefig(fname = fname1,**View_Dict("FigSave",rund))
 
 # Checks whether imported.
 if __name__ == '__main__':
@@ -679,11 +815,15 @@ if __name__ == '__main__':
         mp = Multiplot()
         
     tstx1 = np.arange(0,4,0.1).reshape(-1,1)
+    tstx2 = (np.array(["2010-01-01 15:04:30"]).astype("datetime64") +
+             55555 * np.arange(10).astype("timedelta64"))
     tsty1 = np.sin(tstx1)
     tsty2 = np.cos(tstx1)
     tsty3 = np.tanh(tstx1)
     tsty4 = np.random.rand(*tstx1.shape)
     tsty5 = np.random.rand(*tstx1.shape)
+    tsty6 = np.random.rand(*tstx2.shape)
+    tsty7 = np.random.rand(*tstx2.shape)
     tstimg = [[1,0,0,0,1,1,1,0,1,0,0],[1,0,0,0,1,0,1,0,1,0,0],[1,1,1,0,1,1,1,0,1,1,1]]
     bigmat = np.random.rand(16,25)
     bigmat2 = np.random.rand(25,10)
@@ -716,9 +856,23 @@ if __name__ == '__main__':
     mp.Plan_Grid(bigmats2,7)
     mp.Plan_Grid(bigmats3,8) # Superwide.
     mp.Plan_Grid(bigmats4,9)
+    # Dates are a bit tricky.
+    #dsetng["xtloc"] = "hide"
+    dsetng["xtloc"] = "top" # Suitable for share.
+    dsetng["xrot"] = 30 # Suitable for dates.
+    #dsetng["xrot"] = 90 # Compact yet tends to overflow the screen, illegible.
+    mp.Plot(tstx2,tsty6,10,0,0,**dsetng)
+    dsetng["xtloc"] = None # Prefers string, but none works too.
+    dsetng["shrx"] = [0,0]
+    mp.Plot(tstx2,tsty7,10,1,0,**dsetng)
+    mp.Plot(tstx2,tsty7,10,0,1,**dsetng)
+    dsetng["shrx"] = None
+    dsetng["xrot"] = None
     # Should work just fine with named figures.
     mp.Plot(tstx1,tsty2,"Applesauce",0,0,**dsetng)
     mp.Del_Ax(1,0,0)
+    #mp.Save_Fig() # Slightly heavy.
+    mp.Save_Fig([6,"Applesauce"],"Okay.png",dpi = 300)
     mp.Passive_Display()
     print("\nFin")
 else:
